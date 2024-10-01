@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 :root {
-    --background: linear-gradient(180deg, #C4E4E0, #50988E);
+    --background: #1E1E1E;
 }
 body {
     background: var(--background);
