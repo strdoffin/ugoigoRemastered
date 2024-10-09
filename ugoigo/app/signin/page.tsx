@@ -16,7 +16,7 @@ export default function Page() {
                     <h1 className="text-3xl md:text-4xl text-white text-center flex-[0.95]">UGOIGO</h1>
                 </div>
                 <div>
-                    <Image src ="/ugoigo.svg" fill alt="logo" / >
+                    <Image src ="/ugoigo.svg" width={200} height={200} alt="logo" / >
                 </div>
                 <div className="flex flex-col items-center pt-9">
                     <button type="submit" onClick={() => { router.push("/") }} className="p-2 flex justify-center w-full md:w-3/4 text-white bg-white rounded-lg">
