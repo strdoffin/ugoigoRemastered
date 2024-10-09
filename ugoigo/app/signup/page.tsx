@@ -74,7 +74,7 @@ export default function Page() {
                         <input type="tel" name="Phone" className="rounded-lg p-2 placeholder:px-1" placeholder="xxx-xxxx-xxxx" />
                     </div>
                     <div className="flex flex-col items-center pt-6">
-                        <button type="submit" onClick={()=>{router.push("/")}} className="p-2 flex justify-center w-full md:w-3/4 text-white bg-white rounded-lg">
+                        <button type="submit" onClick={()=>{router.push("/signin")}} className="p-2 flex justify-center w-full md:w-3/4 text-white bg-white rounded-lg">
                             <h2 className="text-gray-600">Create Account</h2>
                             <FontAwesomeIcon icon={faChevronCircleRight} className="text-2xl ml-2 text-[#579D93]" />
                         </button>

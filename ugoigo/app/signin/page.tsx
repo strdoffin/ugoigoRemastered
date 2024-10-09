@@ -42,7 +42,7 @@ export default function Page() {
                                     {showPassword ? <FontAwesomeIcon icon={faEyeSlash} /> : <FontAwesomeIcon icon={faEye} />}
                                 </button>
                             </div>
-                            <button type="submit" onClick={() => { router.push("/") }} className="mt-10 p-2 flex justify-center w-3/4 text-white bg-white rounded-lg">
+                            <button type="submit" onClick={() => { router.push("/feed") }} className="mt-10 p-2 flex justify-center w-3/4 text-white bg-white rounded-lg">
                                 <h2 className="text-gray-600">Sign In</h2>
                                 <FontAwesomeIcon icon={faChevronCircleRight} className="text-2xl ml-2 text-[#579D93]" />
                             </button>
