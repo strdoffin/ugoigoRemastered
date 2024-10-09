@@ -21,7 +21,7 @@ export default function Page() {
                     </button>
                     <h1 className="text-4xl text-white text-center flex-[0.95]">UGOIGO</h1>
                 </div>
-                <div className="h-screen flex flex-col justify-center items-center w-full ">
+                <div className=" h-screen flex flex-col justify-center items-center w-full ">
                     <div className="w-full flex justify-center mb-20">
                         <Image src="/ugoigo.svg" width={300} height={300} alt="logo" />
                     </div>
@@ -49,6 +49,7 @@ export default function Page() {
                             <p className="mt-2 text-white text-center">Don&apos;t have account ? <Link href="/signup" className="underline font-bold">SIGN UP</Link></p>
                         </div>
                     </div>
+                    
                 </div>
             </div>
         </>
