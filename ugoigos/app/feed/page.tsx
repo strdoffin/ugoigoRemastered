@@ -1,7 +1,6 @@
 'use client'
 import TripCard from "@/components/TripCard";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Image from "next/image";
 import { faChevronCircleLeft } from '@fortawesome/free-solid-svg-icons'
 import {useRouter} from "next/navigation";
 export default function Page() {
