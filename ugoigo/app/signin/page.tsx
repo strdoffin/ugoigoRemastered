@@ -3,6 +3,7 @@ import { faChevronCircleLeft, faChevronCircleRight } from "@fortawesome/free-sol
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import { useRouter } from 'next/navigation'
+import Image from "next/image";
 export default function Page() {
     const router = useRouter();
     return (
@@ -13,6 +14,9 @@ export default function Page() {
                         <FontAwesomeIcon icon={faChevronCircleLeft} className="text-white text-2xl" />
                     </button>
                     <h1 className="text-3xl md:text-4xl text-white text-center flex-[0.95]">UGOIGO</h1>
+                </div>
+                <div>
+                    <Image src ="/ugoigo.svg" fill alt="logo" / >
                 </div>
                 <div className="flex flex-col items-center pt-9">
                     <button type="submit" onClick={() => { router.push("/") }} className="p-2 flex justify-center w-full md:w-3/4 text-white bg-white rounded-lg">
