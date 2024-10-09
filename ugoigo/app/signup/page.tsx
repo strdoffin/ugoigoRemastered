@@ -19,8 +19,8 @@ export default function Page() {
     const router = useRouter()
     return (
         <>
-            <div className="flex flex-col h-screen max-w-md mx-auto items-center rounded-xl bg-gradient-to-b from-[#C4E4E0] to-[#50988E]">
-                <div className="w-full bg-[#579D93] p-4 rounded-t-lg mb-2 flex items-center">
+            <div className="flex flex-col max-h-md max-w-md mx-auto items-center rounded-xl bg-gradient-to-b from-[#C4E4E0] to-[#50988E]">
+                <div className="w-full bg-[#579D93] p-3 rounded-t-lg mb-2 flex items-center">
                     <button onClick={() => { router.push("/") }} className=""> 
                         <FontAwesomeIcon icon={faChevronCircleLeft} className="text-white text-2xl" />
                     </button>
